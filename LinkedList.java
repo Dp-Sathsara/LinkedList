@@ -48,6 +48,7 @@ public class Linked_list {
             }
             newNode.next=current.next;
             current.next=newNode;
+            
         }
         size++;
     }
